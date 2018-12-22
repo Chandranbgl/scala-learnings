@@ -1,0 +1,19 @@
+#CollectionWebServer
+
+#Install mysql before executing the the App.
+
+#Update the mysql credentials on application.conf
+
+#To compile run the below command:
+sbt compile
+
+#To run the program:
+sbt run
+
+#To run test cases:
+sbt test
+
+#To send the client details use below command
+curl -H "Content-Type: application/json" -X POST -d '{"customerID":"124","hostname":"host1","path":"abcd","ipAddress":"1234","eventStartTime":"3456","eventFinishtime":"4568","userAgent":"dkfk"}' http://localhost:8080/beacon
+
+#verify the output in mysql database.
