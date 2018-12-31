@@ -4,7 +4,7 @@
 		module="scala-advanced-exercises-1$sources_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20181222081940"
+		publication="20181222101604"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

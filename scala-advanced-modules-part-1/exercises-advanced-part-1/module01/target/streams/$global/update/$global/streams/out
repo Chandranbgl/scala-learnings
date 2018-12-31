@@ -1,4 +1,7 @@
-[info] Updating {file:/Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/}module01...
+[info] Updating {file:/Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/}module01...
+[debug] no default cache defined: set to /Users/chandranthangavel/.ivy2/cache
+[debug] no default cache defined: set to /Users/chandranthangavel/.ivy2/cache
+[debug] no default cache defined: set to /Users/chandranthangavel/.ivy2/cache
 [debug] no default cache defined: set to /Users/chandranthangavel/.ivy2/cache
 [debug] no default cache defined: set to /Users/chandranthangavel/.ivy2/cache
 [debug] :: resolving dependencies :: module01#module01_2.12;1.0-SNAPSHOT
@@ -10,7 +13,6 @@
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] no default cache defined: set to /Users/chandranthangavel/.ivy2/cache
 [info] Resolving org.scala-lang#scala-library;2.12.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.4
@@ -254,21 +256,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.jsuereth#scala-arm_2.12;2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.jsuereth#scala-arm_2.12;2.0 {compile=[default(compile)]}
-[info] Resolving com.jsuereth#scala-arm_2.12;2.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.jsuereth#scala-arm_2.12;2.0 {compile=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.jsuereth/scala-arm_2.12/2.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.jsuereth#scala-arm_2.12;2.0
-[debug] 		tried https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.pom
-[debug] 	public: found md file for com.jsuereth#scala-arm_2.12;2.0
-[debug] 		=> https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.pom (2.0)
-[debug] downloading https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.pom
-[debug] 	[SUCCESSFUL ] com.jsuereth#scala-arm_2.12;2.0!scala-arm_2.12.pom(pom.original) (60ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.jsuereth/scala-arm_2.12/2.0/jars/scala-arm_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.jar
-[debug] 	found com.jsuereth#scala-arm_2.12;2.0 in public
+[debug] sbt-chain: module revision found in cache: com.jsuereth#scala-arm_2.12;2.0
+[debug] 	found com.jsuereth#scala-arm_2.12;2.0 in sbt-chain
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->com.jsuereth#scala-arm_2.12;2.0 [compile->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->com.jsuereth#scala-arm_2.12;2.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -290,21 +279,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 {compile=[default(compile)]}
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 {compile=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.6/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.pom
-[debug] 	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.pom (1.0.6)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.pom(pom.original) (61ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.6/bundles/scala-parser-combinators_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.jar
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 in sbt-chain
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 [compile->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -326,21 +302,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.typelevel#cats-core_2.12;1.0.0-RC1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-core_2.12;1.0.0-RC1 {compile=[default(compile)]}
-[info] Resolving org.typelevel#cats-core_2.12;1.0.0-RC1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-core_2.12;1.0.0-RC1 {compile=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-core_2.12/1.0.0-RC1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-core_2.12;1.0.0-RC1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.pom
-[debug] 	public: found md file for org.typelevel#cats-core_2.12;1.0.0-RC1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.pom (1.0.0-RC1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-core_2.12;1.0.0-RC1!cats-core_2.12.pom(pom.original) (129ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-core_2.12/1.0.0-RC1/jars/cats-core_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.jar
-[debug] 	found org.typelevel#cats-core_2.12;1.0.0-RC1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-core_2.12;1.0.0-RC1
+[debug] 	found org.typelevel#cats-core_2.12;1.0.0-RC1 in sbt-chain
 [debug] 	[1.0.0-RC1] org.typelevel#cats-core_2.12;1.0.0-RC1
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.0.0-RC1 [compile->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.0.0-RC1 [compile->compile]
@@ -362,21 +325,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.typelevel#cats-macros_2.12;1.0.0-RC1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-macros_2.12;1.0.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-macros_2.12;1.0.0-RC1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-macros_2.12;1.0.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-macros_2.12/1.0.0-RC1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-macros_2.12;1.0.0-RC1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.pom
-[debug] 	public: found md file for org.typelevel#cats-macros_2.12;1.0.0-RC1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.pom (1.0.0-RC1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.12;1.0.0-RC1!cats-macros_2.12.pom(pom.original) (126ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-macros_2.12/1.0.0-RC1/jars/cats-macros_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.jar
-[debug] 	found org.typelevel#cats-macros_2.12;1.0.0-RC1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-macros_2.12;1.0.0-RC1
+[debug] 	found org.typelevel#cats-macros_2.12;1.0.0-RC1 in sbt-chain
 [debug] 	[1.0.0-RC1] org.typelevel#cats-macros_2.12;1.0.0-RC1
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.typelevel#cats-core_2.12;1.0.0-RC1->org.typelevel#cats-macros_2.12;1.0.0-RC1 [compile->compile(*)]
@@ -469,21 +419,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.typelevel#cats-kernel_2.12;1.0.0-RC1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-kernel_2.12;1.0.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-kernel_2.12;1.0.0-RC1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-kernel_2.12;1.0.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-kernel_2.12/1.0.0-RC1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-kernel_2.12;1.0.0-RC1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.pom
-[debug] 	public: found md file for org.typelevel#cats-kernel_2.12;1.0.0-RC1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.pom (1.0.0-RC1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.12;1.0.0-RC1!cats-kernel_2.12.pom(pom.original) (122ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-kernel_2.12/1.0.0-RC1/jars/cats-kernel_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.jar
-[debug] 	found org.typelevel#cats-kernel_2.12;1.0.0-RC1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-kernel_2.12;1.0.0-RC1
+[debug] 	found org.typelevel#cats-kernel_2.12;1.0.0-RC1 in sbt-chain
 [debug] 	[1.0.0-RC1] org.typelevel#cats-kernel_2.12;1.0.0-RC1
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.typelevel#cats-core_2.12;1.0.0-RC1->org.typelevel#cats-kernel_2.12;1.0.0-RC1 [compile->compile(*)]
@@ -519,21 +456,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.typelevel#cats-effect_2.12;0.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-effect_2.12;0.5 {compile=[default(compile)]}
-[info] Resolving org.typelevel#cats-effect_2.12;0.5 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-effect_2.12;0.5 {compile=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-effect_2.12/0.5/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-effect_2.12;0.5
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.pom
-[debug] 	public: found md file for org.typelevel#cats-effect_2.12;0.5
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.pom (0.5)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-effect_2.12;0.5!cats-effect_2.12.pom(pom.original) (176ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-effect_2.12/0.5/jars/cats-effect_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.jar
-[debug] 	found org.typelevel#cats-effect_2.12;0.5 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-effect_2.12;0.5
+[debug] 	found org.typelevel#cats-effect_2.12;0.5 in sbt-chain
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.typelevel#cats-effect_2.12;0.5 [compile->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.typelevel#cats-effect_2.12;0.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -566,21 +490,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.typelevel#cats-free_2.12;1.0.0-RC1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-free_2.12;1.0.0-RC1 {compile=[default(compile)]}
-[info] Resolving org.typelevel#cats-free_2.12;1.0.0-RC1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-free_2.12;1.0.0-RC1 {compile=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-free_2.12/1.0.0-RC1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-free_2.12;1.0.0-RC1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.pom
-[debug] 	public: found md file for org.typelevel#cats-free_2.12;1.0.0-RC1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.pom (1.0.0-RC1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-free_2.12;1.0.0-RC1!cats-free_2.12.pom(pom.original) (181ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.typelevel/cats-free_2.12/1.0.0-RC1/jars/cats-free_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.jar
-[debug] 	found org.typelevel#cats-free_2.12;1.0.0-RC1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-free_2.12;1.0.0-RC1
+[debug] 	found org.typelevel#cats-free_2.12;1.0.0-RC1 in sbt-chain
 [debug] 	[1.0.0-RC1] org.typelevel#cats-free_2.12;1.0.0-RC1
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.typelevel#cats-free_2.12;1.0.0-RC1 [compile->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.typelevel#cats-free_2.12;1.0.0-RC1 [compile->compile]
@@ -630,21 +541,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.typesafe.play#play-json_2.12;2.6.6 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-json_2.12;2.6.6 {compile=[default(compile)]}
-[info] Resolving com.typesafe.play#play-json_2.12;2.6.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-json_2.12;2.6.6 {compile=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.typesafe.play/play-json_2.12/2.6.6/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play-json_2.12;2.6.6
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.pom
-[debug] 	public: found md file for com.typesafe.play#play-json_2.12;2.6.6
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.pom (2.6.6)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.pom(pom.original) (50ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.typesafe.play/play-json_2.12/2.6.6/jars/play-json_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.jar
-[debug] 	found com.typesafe.play#play-json_2.12;2.6.6 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.12;2.6.6
+[debug] 	found com.typesafe.play#play-json_2.12;2.6.6 in sbt-chain
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->com.typesafe.play#play-json_2.12;2.6.6 [compile->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->com.typesafe.play#play-json_2.12;2.6.6 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -687,21 +585,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.typesafe.play#play-functional_2.12;2.6.6 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-functional_2.12;2.6.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.typesafe.play#play-functional_2.12;2.6.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-functional_2.12;2.6.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.typesafe.play/play-functional_2.12/2.6.6/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play-functional_2.12;2.6.6
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.pom
-[debug] 	public: found md file for com.typesafe.play#play-functional_2.12;2.6.6
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.pom (2.6.6)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.pom(pom.original) (49ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.typesafe.play/play-functional_2.12/2.6.6/jars/play-functional_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.jar
-[debug] 	found com.typesafe.play#play-functional_2.12;2.6.6 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.12;2.6.6
+[debug] 	found com.typesafe.play#play-functional_2.12;2.6.6 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe.play#play-json_2.12;2.6.6->com.typesafe.play#play-functional_2.12;2.6.6 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1006,21 +891,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scalactic#scalactic_2.12;3.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.4 {compile=[default(compile)]}
-[info] Resolving org.scalactic#scalactic_2.12;3.0.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.4 {compile=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.scalactic/scalactic_2.12/3.0.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scalactic#scalactic_2.12;3.0.4
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.pom
-[debug] 	public: found md file for org.scalactic#scalactic_2.12;3.0.4
-[debug] 		=> https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.pom (3.0.4)
-[debug] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.pom
-[debug] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.pom(pom.original) (50ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.scalactic/scalactic_2.12/3.0.4/bundles/scalactic_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.jar
-[debug] 	found org.scalactic#scalactic_2.12;3.0.4 in public
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.12;3.0.4
+[debug] 	found org.scalactic#scalactic_2.12;3.0.4 in sbt-chain
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.4 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -1079,21 +951,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.typesafe.akka#akka-actor_2.12;2.5.7 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.7 {compile=[default(compile)]}
-[info] Resolving com.typesafe.akka#akka-actor_2.12;2.5.7 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.7 {compile=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.7/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.12;2.5.7
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-actor_2.12;2.5.7
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.pom (2.5.7)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.7!akka-actor_2.12.pom(pom.original) (123ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.7/jars/akka-actor_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.jar
-[debug] 	found com.typesafe.akka#akka-actor_2.12;2.5.7 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.12;2.5.7
+[debug] 	found com.typesafe.akka#akka-actor_2.12;2.5.7 in sbt-chain
 [debug] 	[2.5.7] com.typesafe.akka#akka-actor_2.12;2.5.7
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.7 [compile->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.12;2.5.7 [compile->compile]
@@ -2963,21 +2822,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scalatest#scalatest_2.12;3.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.4 {test=[default(compile)]}
-[info] Resolving org.scalatest#scalatest_2.12;3.0.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.4 {test=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.scalatest/scalatest_2.12/3.0.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scalatest#scalatest_2.12;3.0.4
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.pom
-[debug] 	public: found md file for org.scalatest#scalatest_2.12;3.0.4
-[debug] 		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.pom (3.0.4)
-[debug] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.pom
-[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.pom(pom.original) (49ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/org.scalatest/scalatest_2.12/3.0.4/bundles/scalatest_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.jar
-[debug] 	found org.scalatest#scalatest_2.12;3.0.4 in public
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.4
+[debug] 	found org.scalatest#scalatest_2.12;3.0.4 in sbt-chain
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.4 [test->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -3105,21 +2951,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.typesafe.akka#akka-testkit_2.12;2.5.7 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.12;2.5.7 {test=[default(compile)]}
-[info] Resolving com.typesafe.akka#akka-testkit_2.12;2.5.7 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.12;2.5.7 {test=[default(compile)]}
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.typesafe.akka/akka-testkit_2.12/2.5.7/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-testkit_2.12;2.5.7
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-testkit_2.12;2.5.7
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.pom (2.5.7)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.12;2.5.7!akka-testkit_2.12.pom(pom.original) (128ms)
-[debug] 		tried /Users/chandranthangavel/.ivy2/local/com.typesafe.akka/akka-testkit_2.12/2.5.7/jars/akka-testkit_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.jar
-[debug] 	found com.typesafe.akka#akka-testkit_2.12;2.5.7 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.12;2.5.7
+[debug] 	found com.typesafe.akka#akka-testkit_2.12;2.5.7 in sbt-chain
 [debug] 	[2.5.7] com.typesafe.akka#akka-testkit_2.12;2.5.7
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->com.typesafe.akka#akka-testkit_2.12;2.5.7 [test->runtime]
 [debug] == resolving dependencies module01#module01_2.12;1.0-SNAPSHOT->com.typesafe.akka#akka-testkit_2.12;2.5.7 [test->compile]
@@ -6627,54 +6460,14 @@
 [debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.7.2!scala-logging_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;23.0!guava.jar(bundle)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.jar
-[info] downloading https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.jar
-[info] 	[SUCCESSFUL ] com.jsuereth#scala-arm_2.12;2.0!scala-arm_2.12.jar (97ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.6/scala-parser-combinators_2.12-1.0.6.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(bundle) (135ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.0-RC1/cats-core_2.12-1.0.0-RC1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-core_2.12;1.0.0-RC1!cats-core_2.12.jar (1427ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.5/cats-effect_2.12-0.5.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-effect_2.12;0.5!cats-effect_2.12.jar (250ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/1.0.0-RC1/cats-free_2.12-1.0.0-RC1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-free_2.12;1.0.0-RC1!cats-free_2.12.jar (225ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.jar (318ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.jar
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(bundle) (341ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.7/akka-actor_2.12-2.5.7.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.7!akka-actor_2.12.jar (1405ms)
+[debug] 	[NOT REQUIRED] com.jsuereth#scala-arm_2.12;2.0!scala-arm_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.0.0-RC1!cats-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-effect_2.12;0.5!cats-effect_2.12.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-free_2.12;1.0.0-RC1!cats-free_2.12.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.jar
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.7!akka-actor_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
@@ -6682,25 +6475,10 @@
 [debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar
 [debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.0-RC1/cats-macros_2.12-1.0.0-RC1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.12;1.0.0-RC1!cats-macros_2.12.jar (131ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.0-RC1/cats-kernel_2.12-1.0.0-RC1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.12;1.0.0-RC1!cats-kernel_2.12.jar (1387ms)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.12;1.0.0-RC1!cats-macros_2.12.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.0.0-RC1!cats-kernel_2.12.jar
 [debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.jar (130ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.jar
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(bundle)
@@ -6709,33 +6487,23 @@
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(bundle)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(bundle)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(bundle) (2859ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.7/akka-testkit_2.12-2.5.7.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.12;2.5.7!akka-testkit_2.12.jar (235ms)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.12;2.5.7!akka-testkit_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar
-[debug] :: resolution report :: resolve 4558ms :: artifacts dl 8955ms
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT compile produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-compile.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT runtime produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-runtime.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT test produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-test.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT provided produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-provided.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT optional produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-optional.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT compile-internal produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-compile-internal.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT runtime-internal produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-runtime-internal.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT test-internal produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-test-internal.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT plugin produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-plugin.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT sources produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-sources.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT docs produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-docs.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT pom produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-pom.xml
-[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT scala-tool produced in /Users/chandranthangavel/Downloads/scala-advanced-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-scala-tool.xml
-[debug] 	resolve done (4558ms resolve - 8955ms download)
+[debug] :: resolution report :: resolve 748ms :: artifacts dl 17ms
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT compile produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-compile.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT runtime produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-runtime.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT test produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-test.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT provided produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-provided.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT optional produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-optional.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT compile-internal produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-compile-internal.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT runtime-internal produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-runtime-internal.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT test-internal produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-test-internal.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT plugin produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-plugin.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT sources produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-sources.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT docs produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-docs.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT pom produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-pom.xml
+[debug] 	report for module01#module01_2.12;1.0-SNAPSHOT scala-tool produced in /Users/chandranthangavel/repo/scala-learnings/scala-advanced-modules-part-1/exercises-advanced-part-1/module01/target/resolution-cache/reports/module01-module01_2.12-scala-tool.xml
+[debug] 	resolve done (748ms resolve - 17ms download)
 [info] Done updating.
